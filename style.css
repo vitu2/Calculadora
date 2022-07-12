@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #44ade2;
+    background: -webkit-linear-gradient(180deg, #44ade2 0%, #121ca1 100%);
+    background: linear-gradient(180deg, #44ade2 0%, #121ca1 100%);
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    height: 5rem;
+    color: white;
+    font-size: 3rem;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.botao-calculator{
+    width: 19rem;
+    height: 19rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 5px;
+    column-gap: 5px;
+    background-color: #008bcc;
+    padding: 4px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.num{
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.num:hover{
+    background-color: black;
+    color: white;
+}
+
+.container{
+    -webkit-box-shadow: 3.5px 3px 32px 1.5px #000000;
+    -moz-box-shadow: 3.5px 3px 32px 1.5px #000000;
+    box-shadow: 3.5px 3px 32px 1.5px #000000;
+    border-radius: 5px;
+}
+
